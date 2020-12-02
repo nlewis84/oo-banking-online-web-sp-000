@@ -25,7 +25,6 @@ class Transfer
   end
   
   def reverse_transfer
-    binding.pry
     sender.balance += amount
     receiver.balance -= amount
     
