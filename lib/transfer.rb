@@ -21,7 +21,7 @@ class Transfer
       self.amount = 0
     elsif !self.valid?
       self.status = "rejected"
-      "Transaction rejected. Please check your account balance"
+      "Transaction rejected. Please check your account balance."
     end
   end
 end
