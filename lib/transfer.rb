@@ -1,6 +1,6 @@
 class Transfer
   
-  def initialize(name, something, els)
+  def initialize(name, sender, els)
     @name = name
   end
 end
