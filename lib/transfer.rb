@@ -6,6 +6,7 @@ class Transfer
     @name = name
     @sender = sender
     @receiver = receiver
+    binding.pry
   end
   
   
