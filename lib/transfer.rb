@@ -2,10 +2,10 @@ class Transfer
   attr_accessor :name, :sender, :receiver
   
   
-  def initialize(name, sender, receiver)
-    @name = name
+  def initialize(sender, receiver, amount)
     @sender = sender
     @receiver = receiver
+    @amount = amount
     binding.pry
   end
   
